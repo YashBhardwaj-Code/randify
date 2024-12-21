@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(181, 230, 253);
+    white-space: normal;
+}
+
+#container {
+    text-align: center;
+}
+
+#randbtn {
+    border-radius: 8px;
+    font-size: 35px;
+    border: none;
+    background-color: white;
+    padding: 15px 20px;
+    font-family: Poppins;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    transition: font-size 0.1s;
+}
+
+#randbtn:hover {
+    opacity: 0.7;
+    font-size: 37px;
+}
+
+#randbtn:active {
+    opacity: 0.5;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: bold;
+    cursor: auto;
+    display: inline-block;
+}
+
+#num, #num-maker {
+    display: none;
+}
+
+input {
+    margin-top: 15px;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    padding: 8px 15px;
+    width: 420px;
+}
+
+#num {
+    font-size: 40px;
+    font-size: bolder;
+    transition: font-size 0.25s;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+#num:hover {
+    font-size: 49px;
+}
+
+#error {
+    font-size: 38px;
+    opacity: 1;
+}
+
+#error.hidden {
+    opacity: 0;
+}
+
+#history {
+    border: solid;
+    display: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#history, #history *{
+    font-size: 35px;
+    transition: font-size 0.25s;
+}
+
+#history:hover, #history:hover *{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+span {
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: auto;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.msg {
+    vertical-align: middle;
+    text-align: center;
+}
